@@ -96,5 +96,9 @@ class personnage
     echo $this -> _experience;
   }
   
+  public function __destruct()
+  {
+  }
+  
   
 }
