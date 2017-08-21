@@ -7,6 +7,7 @@ class personnage
   private $_degats;
   private $_niveau;
   private $_experience;
+  private $_note;
   
   public function getId()
   {
