@@ -14,6 +14,10 @@ class compteur
   {
     return self::$_compteur;
   }
+  
+  public function __destruct()
+  {
+  }
 }
 
 $test = new compteur;
